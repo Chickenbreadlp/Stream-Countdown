@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stream Countdown", "Stream Countdown\Stream Countdown.csproj", "{B852F5B6-B761-4CAE-B949-0D8C7F228821}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Countdown Setup", "Countdown Setup\Countdown Setup.vdproj", "{A26B3BA6-E4A1-40F0-8EFF-944C14C6E6CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B852F5B6-B761-4CAE-B949-0D8C7F228821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B852F5B6-B761-4CAE-B949-0D8C7F228821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B852F5B6-B761-4CAE-B949-0D8C7F228821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B852F5B6-B761-4CAE-B949-0D8C7F228821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26B3BA6-E4A1-40F0-8EFF-944C14C6E6CC}.Debug|Any CPU.ActiveCfg = Debug
+		{A26B3BA6-E4A1-40F0-8EFF-944C14C6E6CC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4C1AC03-B7B8-4773-915A-AC767AC473D4}
+	EndGlobalSection
+EndGlobal

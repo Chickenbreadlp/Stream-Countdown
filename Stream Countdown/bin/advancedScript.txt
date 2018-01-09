@@ -1,0 +1,16 @@
+#MIF-seconds<1&minutes=0
+'%s Second remaining'
+#MIF-minutes=0&hours=0
+'%s Seconds remaining'
+#MIF-seconds<1&minutes>1&hours=0
+'%m Minutes and %s Second remaining'
+#MIF-seconds<1&minutes=1&hours=0
+'%m Minute and %s Second remaining'
+#MIF-minutes=1&hours=0
+'%m Minute and %s Seconds remaining'
+#IF-hours=0
+'%m Minutes and %s Seconds remaining'
+#Otherwise
+'%h:%m:%s remaining'
+#End
+'It'll start any second now...'
