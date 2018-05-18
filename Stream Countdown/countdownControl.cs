@@ -133,8 +133,6 @@ namespace Stream_Countdown
             {
                 if (countdown.Hour == 0 && countdown.Minute == 0 && countdown.Second == 0 && (rb_finished.Checked || script.hasEnd))
                 {
-                    btn_start.PerformClick();
-
                     if (rb_finished.Checked)
                     {
                         countdownFile.Write(tb_finished.Text);
@@ -174,6 +172,11 @@ namespace Stream_Countdown
                 lbl_countdown.Text = countdown.ToString(!cb_ampm.Checked);
 
                 Write_Countdown();
+
+                if (countdown.Hour == 0 && countdown.Minute == 0 && countdown.Second == 0)
+                {
+                    btn_start.PerformClick();
+                }
             }
             current_time = DateTime.Now;
             lbl_timenow.Text = current_time.ToString("HH:mm:ss");

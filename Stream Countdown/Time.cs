@@ -150,7 +150,7 @@ namespace Stream_Countdown
         public Time timeDifference(DateTime _start, Time _end)
         {
             Time tempTime = new Time(_end.Hour, _end.Minute, _end.Second);
-            tempTime.SubtractTime(_start);
+            tempTime.SubtractTime(_start.AddSeconds(1));
 
             return tempTime;
         }
