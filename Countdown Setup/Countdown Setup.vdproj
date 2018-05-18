@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_059CC8B120E8EA55A380A275A727CE0B"
+        "OwnerKey" = "8:_4E0D4011EDF044B680B6CE4E5ACEB3AE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4E0D4011EDF044B680B6CE4E5ACEB3AE"
+        "OwnerKey" = "8:_059CC8B120E8EA55A380A275A727CE0B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +61,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -77,6 +93,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -122,7 +146,7 @@
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_51F152EA93014FD7B7DA08B347E560C4"
+            "Folder" = "8:_FA615214E63E4ADB8A529852D6B6B02F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -142,7 +166,7 @@
             "SourcePath" = "8:..\\Stream Countdown\\Time.ico"
             "TargetName" = "8:Time.ico"
             "Tag" = "8:"
-            "Folder" = "8:_51F152EA93014FD7B7DA08B347E560C4"
+            "Folder" = "8:_FA615214E63E4ADB8A529852D6B6B02F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -187,7 +211,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_FA615214E63E4ADB8A529852D6B6B02F"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -195,17 +219,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_51F152EA93014FD7B7DA08B347E560C4"
-                    {
-                    "Name" = "8:Stream Countdown"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_45C6327537914F228856B92262C7A6AB"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
         }
@@ -223,9 +236,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Countdown Setup"
+        "ProductName" = "8:Stream Countdown"
         "ProductCode" = "8:{1CB50B26-305F-449B-9C21-CEA052141447}"
-        "PackageCode" = "8:{00B852A9-FBC4-4BCB-A863-18F617ED22AF}"
+        "PackageCode" = "8:{1ED84877-BE71-426D-BA74-37589D725366}"
         "UpgradeCode" = "8:{33AD6872-C1FC-4B71-B4C7-C7130AF795A6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -236,11 +249,11 @@
         "Manufacturer" = "8:Apfel Media"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Countdown Setup"
+        "Title" = "8:Stream Countdown Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Chickenbread"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:An Application to Countdown with OBS-Integration"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
@@ -355,7 +368,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_4E0D4011EDF044B680B6CE4E5ACEB3AE"
             "Folder" = "8:_07871596B2D44975A1B5A3483AA5CBFC"
-            "WorkingFolder" = "8:_51F152EA93014FD7B7DA08B347E560C4"
+            "WorkingFolder" = "8:"
             "Icon" = "8:_C4F823C9E029451EA7E64E939A116BD5"
             "Feature" = "8:"
             }
@@ -369,7 +382,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_4E0D4011EDF044B680B6CE4E5ACEB3AE"
             "Folder" = "8:_C93597F5545E47FB91522F5A6F215E8E"
-            "WorkingFolder" = "8:_51F152EA93014FD7B7DA08B347E560C4"
+            "WorkingFolder" = "8:"
             "Icon" = "8:_C4F823C9E029451EA7E64E939A116BD5"
             "Feature" = "8:"
             }
@@ -777,7 +790,7 @@
             "SourcePath" = "8:..\\Stream Countdown\\obj\\Release\\Stream Countdown.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_51F152EA93014FD7B7DA08B347E560C4"
+            "Folder" = "8:_FA615214E63E4ADB8A529852D6B6B02F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
