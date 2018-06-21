@@ -135,8 +135,8 @@ To express different Time Values use:
 
 You can use the following search types:
    =		the value has to be exacty that
-   &lt;		the value has to be smaller or the same
-   &gt;		the value has to be lager or the same
+   &lt;		the value has to be smaller
+   &gt;		the value has to be lager
 
 You can use the following in between different conditions in a Multi-Condition:
    |		one of the two conditions have to be true

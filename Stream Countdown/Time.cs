@@ -161,11 +161,6 @@ namespace Stream_Countdown
         {
             string returnString = Hour.ToString("D2") + ":" + Minute.ToString("D2") + ":" + Second.ToString("D2");
 
-            if (Days != 0)
-            {
-                returnString = Days + " Days and " + returnString;
-            }
-
             return returnString;
         }
 
@@ -195,11 +190,6 @@ namespace Stream_Countdown
             }
 
             string returnString = tempHour.ToString("D2") + ":" + Minute.ToString("D2") + ":" + Second.ToString("D2") + ampmS;
-
-            if (Days != 0)
-            {
-                returnString = Days + " Days and " + returnString;
-            }
 
             return returnString;
         }

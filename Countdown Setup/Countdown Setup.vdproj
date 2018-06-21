@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_059CC8B120E8EA55A380A275A727CE0B"
+        "MsmKey" = "8:_3C17809083CC105AF42F40764BD9F0A2"
         "OwnerKey" = "8:_4E0D4011EDF044B680B6CE4E5ACEB3AE"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_059CC8B120E8EA55A380A275A727CE0B"
+        "OwnerKey" = "8:_3C17809083CC105AF42F40764BD9F0A2"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -100,6 +100,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -130,14 +138,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_059CC8B120E8EA55A380A275A727CE0B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C17809083CC105AF42F40764BD9F0A2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_059CC8B120E8EA55A380A275A727CE0B"
+                    "_3C17809083CC105AF42F40764BD9F0A2"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -238,11 +246,11 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Stream Countdown"
         "ProductCode" = "8:{1CB50B26-305F-449B-9C21-CEA052141447}"
-        "PackageCode" = "8:{1ED84877-BE71-426D-BA74-37589D725366}"
+        "PackageCode" = "8:{92FE649E-6FFA-429F-A8A7-F336AD91DF7F}"
         "UpgradeCode" = "8:{33AD6872-C1FC-4B71-B4C7-C7130AF795A6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"

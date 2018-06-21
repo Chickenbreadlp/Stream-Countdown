@@ -33,8 +33,6 @@ namespace Stream_Countdown
         public string getResult(Time _currentTime)
         {
             string[] splittedLine;
-            int timevalue;
-            bool wasOK;
             string otherwise = "%H:%M:%S";
 
             for (int i = 0; i < lines.Count; i++)
@@ -160,13 +158,13 @@ namespace Stream_Countdown
                                 }
                                 break;
                             case "<":
-                                if (_currentTime.Second <= timevalue)
+                                if (_currentTime.Second < timevalue)
                                 {
                                     returnValue = true;
                                 }
                                 break;
                             case ">":
-                                if (_currentTime.Second >= timevalue)
+                                if (_currentTime.Second > timevalue)
                                 {
                                     returnValue = true;
                                 }
@@ -183,13 +181,13 @@ namespace Stream_Countdown
                                 }
                                 break;
                             case "<":
-                                if (_currentTime.Minute <= timevalue)
+                                if (_currentTime.Minute < timevalue)
                                 {
                                     returnValue = true;
                                 }
                                 break;
                             case ">":
-                                if (_currentTime.Minute >= timevalue)
+                                if (_currentTime.Minute > timevalue)
                                 {
                                     returnValue = true;
                                 }
@@ -206,13 +204,13 @@ namespace Stream_Countdown
                                 }
                                 break;
                             case "<":
-                                if (_currentTime.Hour <= timevalue)
+                                if (_currentTime.Hour < timevalue)
                                 {
                                     returnValue = true;
                                 }
                                 break;
                             case ">":
-                                if (_currentTime.Hour >= timevalue)
+                                if (_currentTime.Hour > timevalue)
                                 {
                                     returnValue = true;
                                 }
